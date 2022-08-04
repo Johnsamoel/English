@@ -19,7 +19,7 @@ export interface WordContainerProps {
 
 export interface ButtonProps {
   children: React.ReactNode ;
-  bgColor: string;
+  bgColor?: string;
   action?: any
 }
 

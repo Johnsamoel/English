@@ -212,7 +212,7 @@ const Home = () => {
             : "we're done"}
         </WordContainer>
          { !(WordsCounter === 10) && <CircleProgressBar percent={percent}/>}
-        { sentence &&<ExampleContainer bgc="#3b4754"  Example={sentence.length > 5 ? sentence : 'No Example'} ></ExampleContainer>}
+        { !(WordsCounter === 10) &&<ExampleContainer bgc="#3b4754"  Example={sentence?.length > 5 ? sentence : 'No Example'} ></ExampleContainer>}
         </Stack>
 
         {WordsCounter < 10 && (

@@ -14,7 +14,7 @@ import Axios from "axios";
 import { toastError } from '../Utils/HelperFunctions';
 
 // importing my ui components
-import SpecialButton from "../Components/UI/SpecialButton";
+import StyledButton from "../Components/UI/StyledButton";
 
 import img from '../Assets/done.jpg';
 
@@ -88,9 +88,9 @@ const Result = () => {
             <Typography fontSize='2.5rem' fontWeight='bold'>{userScore} </Typography>
 
             <Stack direction="row" justifyContent="center" alignItems="center">
-              <SpecialButton bgcolor="#1976d2" action={RetakeTest}>
+              <StyledButton  action={RetakeTest}>
                 Retake it
-              </SpecialButton>
+              </StyledButton>
             </Stack>
           </Stack>
         </Box>
