@@ -3,7 +3,7 @@ import {  Grid, Stack, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 
 // importing react built in or other functions  to implement.
-import { useEffect, useState, useCallback, useContext } from "react";
+import { useEffect, useState, useCallback, useContext , memo } from "react";
 import { useNavigate } from "react-router-dom";
 import Axios from "axios";
 
@@ -283,4 +283,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default memo(Home);
