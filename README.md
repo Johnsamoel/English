@@ -55,8 +55,7 @@ you will need to do the same steps to run backend app.
 git clone https://github.com/Johnsamoel/Nagwa_Task.git
 ```
 
-2. Install NPM packages
-
+2. Install NPM packages for both repositories the CLient-side & Server-Side
 ```sh
 npm install
 ```
